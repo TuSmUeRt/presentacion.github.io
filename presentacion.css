@@ -1,0 +1,61 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('procesadores.jpeg');
+    
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #333;
+    position: absolute;
+    height: 100%;
+    
+}
+li a {
+    display: block;
+    color: #fff;
+    padding: 8px 0 8px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+h1 {
+    background-color: white;
+    color: black;
+    text-align: center
+}
+div {
+    color: rgb(245, 245, 245);
+    text-align: left;
+    
+}
+.container {
+    display: flex;
+    
+
+}
+.nav {
+    flex: 1;
+    
+}
+.content {
+    flex: 8;
+    font-size: 30px;
+}
+p {
+    font-size: 60px;
+    background-color: black;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
